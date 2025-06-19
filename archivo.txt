@@ -1,1 +1,4 @@
-se borro la funcion temporalmente
+se agrego una funcion sumar y restar 
+se validaron los datos con un try except
+y se llamaron a las funciones
+
