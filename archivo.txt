@@ -1,1 +1,1 @@
-se creo una funcion suma
+se borro la funcion temporalmente
