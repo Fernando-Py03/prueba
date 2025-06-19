@@ -15,11 +15,17 @@ while True:
     
 while True:
     print("1- sumar  2- restar")
-    opcion = int(input("por favor dijita 1 0 2"))
-    if opcion == 1:
+    try:
+        oneopcion = int(input("por favor dijita 1 0 2"))
+        if oneopcion > 0:
+            break
+        else: print("Repitelo")
+    except: print("repitelo")
+    
+    if oneopcion == 1:
         suma(numero3, numero2)
         break
-    elif opcion == 2:
+    elif oneopcion == 2:
         resta(numero3, numero2)
         break
     else: print("eligio una opcion equivocada!")
