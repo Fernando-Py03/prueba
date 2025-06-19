@@ -14,14 +14,8 @@ while True:
     except: print("Por favor ingresa un numero")
     
 while True:
-    print("1- sumar  2- restar")
-    try:
-        oneopcion = int(input("por favor dijita 1 0 2"))
-        if oneopcion > 0:
-            break
-        else: print("Repitelo")
-    except: print("repitelo")
-    
+    print("estas son las opciones: 1. sumar 2. restar")
+    oneopcion = int(input("por favor dijita 1 0 2"))
     if oneopcion == 1:
         suma(numero3, numero2)
         break
@@ -30,4 +24,4 @@ while True:
         break
     else: print("eligio una opcion equivocada!")
     
-print("hola fernando")
+print("hola fernando carlos ")
